@@ -39,6 +39,11 @@
             "src":"./img/react_image_36x20.png",
             "sizes":"36x20",
             "type":"image/png"
+        },
+        {
+            "src":"./img/shortcut_icon_144x144.png",
+            "sizes":"144x144",
+            "type":"image/png"
         }
     ]
 }
