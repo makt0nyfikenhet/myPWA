@@ -7,7 +7,7 @@ urlsToCache = [                             // Urls que seran cacheadas
     './img/favicon.ico',                    /* Recursos utilizados, como fotos, imagenes, favicon, etc.
                                                Sea que esten alojados en local o en un servidor remoto
                                             */
-    './img/react_image_192x108.png'
+    './img/react_image_144x81.png'
 ]
 
 
