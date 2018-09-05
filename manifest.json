@@ -1,0 +1,44 @@
+{
+    "name":"myPWA",                              
+    "short_name":"myPWA First",                  
+    "description":"Primera PWA de practica",     
+    "background_color":"#303F9F",                
+    "theme_color":"#FFFFFF",                     
+    "orientation":"portrait",                    
+    "display":"standalone",                      
+    "start_url":"./?utm_source=web_app_manifest",
+    "scope":"./",                                
+    "lang":"es-MX",                              
+    "icons":[
+        {
+            "src":"./img/react_image_192x108.png",                        
+            "sizes":"192x108",
+            "type":"image/png"
+        },
+        {
+            "src":"./img/react_image_144x81.png",
+            "sizes":"144x81",
+            "type":"image/png"
+        },
+        {
+            "src":"./img/react_image_96x54.png",
+            "sizes":"96x54",
+            "type":"image/png"
+        },
+        {
+            "src":"./img/react_image_72x40.png",
+            "sizes":"72x40",
+            "type":"image/png"
+        },
+        {
+            "src":"./img/react_image_48x27.png",
+            "sizes":"48x27",
+            "type":"image/png"
+        },
+        {
+            "src":"./img/react_image_36x20.png",
+            "sizes":"36x20",
+            "type":"image/png"
+        }
+    ]
+}
