@@ -35,7 +35,7 @@ self.addEventListener('activate', e => {
     e.waitUntil(
         caches.keys()   // Ver las llaves para verificar que llaves de los archivos en cache han sufrido modificaciones
         .then( cachesNames => {
-            cacheNames.map( cacheName => {
+            cachesNames.map( cacheName => {
                 // Eliminamos lo que ya no se necesita en cache
                 if ( cacheWhiteList.indexOf( cacheName ) === -1 ) {
                     return caches.delete( cacheName )
