@@ -4,10 +4,9 @@ urlsToCache = [                             // Urls que seran cacheadas
     './',                                   // Home 
     './style.css',                          // Las diferentes hojas de estilos utilizadas
     './script.js',                          // Los archivos js utilizados
-    './img/favicon.ico',                    /* Recursos utilizados, como fotos, imagenes, favicon, etc.
+    './img/shortcut_icon_144x144.png'       /* Recursos utilizados, como fotos, imagenes, favicon, etc.
                                                Sea que esten alojados en local o en un servidor remoto
                                             */
-    './img/react_image_144x81.png'
 ]
 
 
