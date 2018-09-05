@@ -1,12 +1,24 @@
-* {
-    margin:  0;
-    padding: 0;
-  }
+body {
+  background: black;
+}
 
-  img {
-    max-width:100%;
-    width:100%;
-    max-height:100%;
-    height:100%;
+h1, h2, h3 {
+  color: white;
+  text-align: left;
+}
 
+.comentario {
+  font-family: cursive;
+  color: gray;
+  font-weight: bold;
+}
+
+.codigo {
+  font-family: 'Times New Roman';
+  color:cyan;
+  font-size: 1.2em;
+}
+
+span {
+  color: yellowgreen;
 }

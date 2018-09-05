@@ -4,11 +4,9 @@ urlsToCache = [                             // Urls que seran cacheadas
     './',                                   // Home 
     './style.css',                          // Las diferentes hojas de estilos utilizadas
     './script.js',                          // Los archivos js utilizados
-    './img/icon_16.png',                     /* Recursos utilizados, como fotos, imagenes, favicon, etc.
+    './img/pwa_icon.png'                     /* Recursos utilizados, como fotos, imagenes, favicon, etc.
                                                Sea que esten alojados en local o en un servidor remoto
                                             */
-    './img/startup_image_wp.jpeg',
-    'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'
 ]
 
 

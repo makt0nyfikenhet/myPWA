@@ -1,49 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <title>myPWA</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <link rel="stylesheet" href="./style.css">
 
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <title>myPWA</title>
 
-    <!-- REQUISITOS PWA CONVERT => INICIO -->
+        <!-- REQUISITOS PWA CONVERT => INICIO -->
 
-        <!-- Pintar la barra de direccion del navegador-->
-        <meta name="theme-color" content="#1a237e"> 
+            <!-- Pintar la barra de direccion del navegador-->
+            <meta name="theme-color" content="#1a237e"> 
 
-        <!-- Decirle a los navegadores moviles que este sitio esta optimizado para moviles (Es amistoso: HandheldFriendly)-->
-        <meta name="MobileOptimized" content="width">
-        <meta name="HandheldFriendly" content="true">
+            <!-- Decirle a los navegadores moviles que este sitio esta optimizado para moviles (Es amistoso: HandheldFriendly)-->
+            <meta name="MobileOptimized" content="width">
+            <meta name="HandheldFriendly" content="true">
 
-        <!-- Metaetiquetas para dispositivos Apple -->
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+            <!-- Metaetiquetas para dispositivos Apple -->
+            <meta name="apple-mobile-web-app-capable" content="yes">
+            <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-        <!-- Imagen de Fondo que se vera al ejecutar/cargar la PWA instalada en el dispositivo -->
-        <link rel="apple-touch-startup-image" href="./img/startup_image_wp.jpeg">
+            <!-- Imagen de Fondo que se vera al ejecutar/cargar la PWA instalada en el dispositivo -->
+            <link rel="apple-touch-startup-image" href="./img/startup_image_wp.jpeg">
 
-        <!-- Icono que se instala directamente en la pantalla de los dispositivos Apple-->
-        <link rel="apple-touch-icon" href="./img/icon_16.png">
+            <!-- Icono que se instala directamente en la pantalla de los dispositivos Apple-->
+            <link rel="apple-touch-icon" href="./img/pwa_icon.png">
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" type="image/png" href="./img/icon_16.png">
+            <!-- Favicon -->
+            <link rel="shortcut icon" type="image/png" href="./img/pwa_icon.png">
 
-        <!-- Manifest.json -->
-        <link rel="manifest" href="./manifest.json">
+            <!-- Manifest.json -->
+            <link rel="manifest" href="./manifest.json">
 
-    <!-- REQUISITOS PWA CONVERT => FINAL -->
+        <!-- REQUISITOS PWA CONVERT => FINAL -->
 
 
-</head>
-<body>
-    <div>
-        <img src="./img/startup_image_wp.jpeg" class="img-responsive" alt="Responsive image">
-    </div>
+    </head>
+    <body>
 
-    <script src="./script.js"></script>
-</body>
+        <h1>My First PWA</h1>
+
+        <p>This is an example of how to convert a website into a PWA.</p> 
+
+        <h2>REQUIREMENTS PWA CONVERT</h2>
+
+        <h3>1. Add the following tags on the <span>application home page</span></h3>
+
+        <p class="comentario">// Paint the browser's address bar</p>
+        <p class="codigo">meta name = "theme-color" content = "#1a237e"></p>
+        <p class="comentario">// Tell mobile browsers that this site is optimized for mobile (It's friendly: HandheldFriendly)</p>
+        <p class="codigo">meta name = "MobileOptimized" content = "width"></p>
+        <p class="codigo">meta name = "HandheldFriendly" content = "true"></p>
+        <p class="comentario">// Meta tags for Apple devices</p>
+        <p class="codigo">meta name = "apple-mobile-web-app-capable" content = "yes"></p>
+        <p class="codigo">meta name = "apple-mobile-web-app-status-bar-style" content = "black-translucent"></p>
+        <p class="comentario">// Background image to be seen when executing/loading the PWA installed on the device</p>
+        <p class="codigo">link rel = "apple-touch-startup-image" href = "./img/startup_image_wp.jpeg"></p>
+        <p class="comentario">// Icon that is installed directly on the screen of Apple devices</p>
+        <p class="codigo">link rel = "apple-touch-icon" href = "./img/icon_16.png"></p>
+        <p class="comentario">// Favicon</p>
+        <p class="codigo">link rel = "shortcut icon" type = "image/png" href = "./img/ icon_16.png"></p>
+        <p class="comentario">// Manifest.json</p>
+        <p class="codigo">link rel = "manifest" href = "./manifest.json"></p>
+                    
+        <h3>2. Create the file
+            <span>
+                <a href="https://github.com/makt0nyfikenhet/myPWA/blob/master/manifest_original.json">manifest.json
+                </a>
+            </span> in the root of the website</h3>
+        
+        <h3>3. Create two javascript files</h3>
+        <p class="comentario"><a href="https://github.com/makt0nyfikenhet/myPWA/blob/master/call_ws.js">call_sw.js</a> => Script that calls the Service Worker. This links to the home page of the website</p>
+        <p class="comentario"><a href="https://github.com/makt0nyfikenhet/myPWA/blob/master/sw.js">sw.js</a> => The Service Worker</p>
+
+        <br>
+        <br>
+
+        <footer style="text-align: center">
+            <p style="color: cadetblue">Thanks to Professor <a href="https://jonmircha.com/">Jon Mircha</a></p>
+        </footer>
+        <script src="./call_sw.js"></script>
+    </body>
 </html>
