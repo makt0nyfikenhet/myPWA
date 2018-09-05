@@ -1,5 +1,5 @@
 // Asignar un nombre y version al cache
-const CACHE_NAME = '',                      // Nombre que se le quiere dar a la cache
+const CACHE_NAME = 'miCache_v1',            // Nombre que se le quiere dar a la cache
 urlsToCache = [                             // Urls que seran cacheadas
     './',                                   // Home 
     './style.css',                          // Las diferentes hojas de estilos utilizadas
