@@ -1,7 +1,7 @@
 {
-    "name":"myPWA",                              
-    "short_name":"myPWA First",                  
-    "description":"Primera PWA de practica",     
+    "name":"MyPWA",                              
+    "short_name":"MyPWA First",                  
+    "description":"My First PWA",     
     "background_color":"#1a237e",                
     "theme_color":"#b2ebf2",                     
     "orientation":"portrait",                    
@@ -48,6 +48,11 @@
         {
             "src":"./img/icon_64.png",
             "sizes":"64x64",
+            "type":"image/png"
+        },
+        {
+            "src":"./img/pwa_icon.png",
+            "sizes":"56x56",
             "type":"image/png"
         },
         {
